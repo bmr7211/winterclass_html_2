@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>0108_3</title>
+    <!-- html : css3 part-->
+    <style>
+        /* css : 선택자(selector)
+           type 선택자 : html 요소 이름을 사용
+           전체 선택자 : *
+           id 선택자(#) : 특정한(하나의) 요소에 css 적용
+           class 선택자(.) : 몇개의 요소를 묶어서 하나의 클래스 스타일 적용
+        */
+        * {
+            color: red;
+            background-color: yellow;
+        }
+
+        #target {
+            color: green;
+        }
+
+        .type1 {
+            color: blue;
+        }
+
+        .type2 {
+            color: purple;
+        }
+
+        p.type2 {
+            color: gray;
+            text-align: center;
+        }
+
+        h2,
+        h3 {
+            font-family: serif;
+            border: 2px solid white;
+        } /* 선택자를 콤마로 분리 */
+    </style>
+</head>
+
+<body>
+    <p id="target">이 부분은 단락입니다.</p>
+    <h2>이 부분은 h2 입니다.</h2>
+    <h3 class="type1">이 부분은 h3 입니다.</h3>
+    <p class="type1">이 부분은 type1 입니다.</p>
+    <h4 class="type2">이 부분은 h4 입니다.</h4>
+    <p class="type2">이 부분은 type2_h4 입니다.</p>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+    background-color: beige;
+}
+
+#mine {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px dotted palevioletred;
+}
+
+.birth {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 3px solid white;
+}
+
+a:link {
+    color: rgb(149, 36, 255);
+}
+
+a:visited {
+    color: #1e9800;
+}
+
+a:hover {
+    color: rgb(149, 36, 255);
+}

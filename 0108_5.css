@@ -1,0 +1,7 @@
+body em {
+    color: red;
+} /* em in body */
+
+body>h1 {
+    color: blue;
+} /* h1 in body */
