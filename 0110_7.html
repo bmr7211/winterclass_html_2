@@ -6,9 +6,14 @@
 
     <style>
         h1 {
+            font-family: 'Times New Roman', Times, serif;
             text-align: center;
             border-bottom: double 5px red;
-            padding: 0 0 10px 0;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
         }
 
         #live {
@@ -16,14 +21,30 @@
             padding: 20px;
         }
 
+        .livelist {
+            float: left;
+            list-style-type: none;
+        }
+
         .liveband {
-            display: inline;
+            border: 2px dotted rgba(255, 0, 0, 0.5);
+            width: 403px;
+            height: 220px;
+        }
+
+        .comment {
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        hr {
+            border-bottom: solid 1px red;
         }
     </style>
 </head>
 
 <body>
-    <h1><em>Rock N Roll</em></h1>
+    <h1>Rock N Roll</h1>
     <h3>SPYAIR</h3>
     <img src="image/spyair.jpg" width="500">
     <p>
@@ -32,15 +53,70 @@
     </p>
     <hr>
     <h3 id="live">라이브 무대</h3>
-    <div>
-        <iframe class="liveband" width="400" height="216.25" src="https://www.youtube.com/embed/eMa_cXrnVgw?si=ZKloSzo8sZ_o-KCf">
-        </iframe>
-        <iframe class="liveband" width="400" height="216.25" src="https://www.youtube.com/embed/Tn9pmEeCUEE?si=cjlwynITsHJf2ZnS">
-        </iframe>
-        <iframe class="liveband" width="400" height="216.25" src="https://www.youtube.com/embed/FgFnOK1wgu8?si=etqjeEm1Q8tLPg_Y">
-        </iframe>
 
-    </div>
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/eMa_cXrnVgw?si=ZKloSzo8sZ_o-KCf">
+            </iframe>
+        </li>
+        <li class="comment">2017 Some like it hot</li>
+    </ul>
+
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/Tn9pmEeCUEE?si=cjlwynITsHJf2ZnS">
+            </iframe>
+        </li>
+        <li class="comment">2012 BUDOKAN Liar</li>
+    </ul>
+
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/FgFnOK1wgu8?si=etqjeEm1Q8tLPg_Y">
+            </iframe>
+        </li>
+        <li class="comment">
+            2015 SPYAIR DYNAMITE LIVE 
+            <br>at SAITAMA SUPER ARENA Some like it hot
+        </li>
+    </ul>
+
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/zEzOP-h89GQ?si=636Ac0Z66KZbxJoi">
+            </iframe>
+        </li>
+        <li class="comment">2015 DYNAMITE TOUR My word</li>
+    </ul>
+
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/tXK2d1wM_ec?si=-_ICHIRgW4wM3fb4">
+            </iframe>
+        </li>
+        <li class="comment">
+            2013 SPYAIR TOUR "MILLION"<br>
+            現状ディストラクション
+        </li>
+    </ul>
+
+    <ul class="livelist">
+        <li>
+            <iframe class="liveband" width="400" height="216.25"
+                src="https://www.youtube.com/embed/eweKYdtTwus?si=fXBiUtY_RFFRnCP8">
+            </iframe>
+        </li>
+        <li class="comment">
+            2015 SPYAIR DYNAMITE ARENA TOUR<br>
+            My friend
+        </li>
+    </ul>
+
 </body>
 
 </html>
