@@ -1,0 +1,85 @@
+<!-- semantic 태그를 이용한 웹페이지 작성 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>0112_1</title>
+
+    <style>
+        body {
+            background-color: rgb(228, 249, 228);
+            font-family: Arial, "Trebuchet MS", sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(216, 192, 255);
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section#main {
+            display: table-cell;
+            background-color: #fff;
+            padding: 15px;
+            padding-top: 20px;
+            border-radius: 10%;
+        }
+
+        nav {
+            display: table-cell;
+            background-color: rgb(235, 247, 235);
+            padding: 15px;
+        }
+
+        footer {
+            background-color: rgb(0, 133, 29);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            font-size: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <nav>
+        <h1>Menu</h1>
+        <ul>
+            <li><a href="http://www.naver.com" target="_blank">naver</a></li>
+            <li><a href="http://www.youtube.com" target="_blank">youtube</a></li>
+            <li><a href="http://www.github.com" target="_blank">github</a></li>
+        </ul>
+        <figure>
+            <figcaption>떡잎마을 방범대</figcaption>
+            <img src="image/kb_1.jpg" width="200">
+        </figure>
+        <section id="main">
+            <article>
+                <h1>시맨틱 태그</h1>
+                <p>
+                    브라우저에게 요소의 의미와<br>목적을 알려주는 방법
+                </p>
+            </article>
+            <article>
+                <h1>div & span</h1>
+                <p>
+                    div : divide. 페이지를 섹션으로 분리함<br>
+                    span : 인라인 요소. 텍스트를 위한 컨테이너
+                </p>
+            </article>
+        </section>
+        <footer>Copyright© 2024 Shin</footer>
+    </nav>
+</body>
+
+</html>
