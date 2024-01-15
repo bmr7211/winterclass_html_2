@@ -4,6 +4,9 @@
 <head>
     <title>0110_7_ex</title>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             background-color: rgb(254, 246, 235);
@@ -17,7 +20,7 @@
 
         nav {
             width: 20%;
-            height: 500px;
+            height: 100%;
             display: table-cell;
             background-color: #fff;
             border: 2px solid rgb(255, 213, 155);
@@ -40,7 +43,7 @@
 
         #live {
             text-align: center;
-            padding: 20px;
+            padding-top: 20px;
         }
 
         .livelist {
@@ -50,12 +53,13 @@
 
         .liveband {
             border: 2px dotted rgba(255, 0, 0, 0.5);
-            width: 403px;
-            height: 220px;
+            width: 275px;
+            height: 150px;
+            margin-bottom: 10px;
         }
 
         .comment {
-            margin-top: 5px;
+            margin: 5px 0 5px 0;
             text-align: center;
         }
 
@@ -65,14 +69,14 @@
         }
 
         footer {
-                clear: both;
-                background-color: rgb(112, 0, 0);
-                color: #fff;
-                width: 100%;
-                height: 30px;
-                text-align: center;
-                padding: 5px;
-            }
+            clear: both;
+            background-color: rgb(112, 0, 0);
+            color: #fff;
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            padding: 5px;
+        }
     </style>
 </head>
 
@@ -88,93 +92,90 @@
             <li><a href="http://www.github.com" target="_blank">github</a></li>
         </ul>
         <section id="main">
-            <article>
-                <h2>전 멤버</h2>
-                <p>
-                    池田 英史 (이케다 히데후미)<br>
-                    일본의 싱어송라이터이자 일본 락밴드 SPYAIR의 전 보컬리스트.<br>
-                    아이치현 출신인 멤버들로 구성되어 있던 일본 락밴드 SPYAIR의 보컬로 활동했다.
-                </p>
-                <p>
-                    이와타 유스케(岩田 祐介)<br>
-                    2012년 12월 18일 일본 무도관 공연으로 탈퇴하는 것을 표명 후 탈퇴.
-                </p>
-            </article>
+
+            <h2>전 멤버</h2>
+            <p>
+                池田 英史 (이케다 히데후미)<br>
+                일본의 싱어송라이터이자 일본 락밴드 SPYAIR의 전 보컬리스트.<br>
+                아이치현 출신인 멤버들로 구성되어 있던 일본 락밴드 SPYAIR의 보컬로 활동했다.
+            </p>
+            <p>
+                이와타 유스케(岩田 祐介)<br>
+                2012년 12월 18일 일본 무도관 공연으로 탈퇴하는 것을 표명 후 탈퇴.
+            </p>
+
         </section>
     </nav>
     <div>
         <h3>SPYAIR</h3>
-        <img src="image/spyair.jpg" width="500">
+        <img src="https://i.namu.wiki/i/cw10VyIbolW4E_f83TsvqvM26juny2Tt34oYgIUBawjLEtUe2zMpF1pj-Mlq8UdppY1ckNxl6ZkTSFPCfSbtOA.webp"
+            width="300">
         <p>
             2010년 데뷔한 일본의 4인조 록밴드.<br>
             대표 곡으로는 'Some like it hot', 'Liar', 'サクラミツツキ', '現状ディストラクション' 등이 있다.
         </p>
     </div>
     <hr>
-    <h3 id="live">라이브 무대</h3>
+    <div>
+        <h3 id="live">라이브 무대</h3>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/eMa_cXrnVgw?si=ZKloSzo8sZ_o-KCf">
-            </iframe>
-        </li>
-        <li class="comment">2017 Some like it hot</li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/eMa_cXrnVgw?si=ZKloSzo8sZ_o-KCf">
+                </iframe>
+            </li>
+            <li class="comment">2017 Some like it hot</li>
+        </ul>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/Tn9pmEeCUEE?si=cjlwynITsHJf2ZnS">
-            </iframe>
-        </li>
-        <li class="comment">2012 BUDOKAN Liar</li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/Tn9pmEeCUEE?si=cjlwynITsHJf2ZnS">
+                </iframe>
+            </li>
+            <li class="comment">2012 BUDOKAN Liar</li>
+        </ul>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/FgFnOK1wgu8?si=etqjeEm1Q8tLPg_Y">
-            </iframe>
-        </li>
-        <li class="comment">
-            2015 SPYAIR DYNAMITE LIVE
-            <br>at SAITAMA SUPER ARENA Some like it hot
-        </li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/FgFnOK1wgu8?si=etqjeEm1Q8tLPg_Y">
+                </iframe>
+            </li>
+            <li class="comment">
+                2015 SPYAIR DYNAMITE LIVE
+                <br>at SAITAMA SUPER ARENA Some like it hot
+            </li>
+        </ul>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/zEzOP-h89GQ?si=636Ac0Z66KZbxJoi">
-            </iframe>
-        </li>
-        <li class="comment">2015 DYNAMITE TOUR My word</li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/zEzOP-h89GQ?si=636Ac0Z66KZbxJoi">
+                </iframe>
+            </li>
+            <li class="comment">2015 DYNAMITE TOUR My word</li>
+        </ul>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/tXK2d1wM_ec?si=-_ICHIRgW4wM3fb4">
-            </iframe>
-        </li>
-        <li class="comment">
-            2013 SPYAIR TOUR "MILLION"<br>
-            現状ディストラクション
-        </li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/tXK2d1wM_ec?si=-_ICHIRgW4wM3fb4">
+                </iframe>
+            </li>
+            <li class="comment">
+                2013 SPYAIR TOUR "MILLION"<br>
+                現状ディストラクション
+            </li>
+        </ul>
 
-    <ul class="livelist">
-        <li>
-            <iframe class="liveband" width="400" height="216.25"
-                src="https://www.youtube.com/embed/eweKYdtTwus?si=fXBiUtY_RFFRnCP8">
-            </iframe>
-        </li>
-        <li class="comment">
-            2015 SPYAIR DYNAMITE ARENA TOUR<br>
-            My friend
-        </li>
-    </ul>
+        <ul class="livelist">
+            <li>
+                <iframe class="liveband" src="https://www.youtube.com/embed/eweKYdtTwus?si=fXBiUtY_RFFRnCP8">
+                </iframe>
+            </li>
+            <li class="comment">
+                2015 SPYAIR DYNAMITE ARENA TOUR<br>
+                My friend
+            </li>
+        </ul>
+    </div>
     <footer>Copyright© 2024 Shin</footer>
 </body>
 
